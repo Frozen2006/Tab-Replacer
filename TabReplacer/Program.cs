@@ -21,7 +21,7 @@ namespace TebReplacer
 
             if (Directory.Exists(args[0]))
             {
-                ScanFolder(path);
+                ScanFolder(args[0]);
             }
             else
             {
@@ -46,7 +46,7 @@ namespace TebReplacer
         static void ProcessFolder(string path)
         {
             var files = Directory.GetFiles(path, "*.cs");
-            Path.GetFileName
+
             foreach(var file in files)
             {
                 Console.WriteLine("Updating file: {0}", Path.GetFileName(file));
