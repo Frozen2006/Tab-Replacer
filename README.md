@@ -1,4 +1,4 @@
 Tab-Replacer
 ============
 
-Colsole utility which will help replace all tab identity in your C# solution
+Console utility which will help replace all tab identity in your C# solution
